@@ -34,8 +34,8 @@ NETWORKING_IPV6=no
 install JDK:
 #rpm -ivh jdk-7u55-linux-x64.rpm
 #rpm -ivh oracle-j2sdk1.7-1.7.0 update67-1.x86_64.rpm
-
-#yum install --assumeyes cloudera-manager-server-db-2 cloudera-manager-daemons cloudera-manager-server
+#yum install --assumeyes cloudera-manager-server-db-2
+#yum install --assumeyes cloudera-manager-daemons cloudera-manager-server
 
 [root@nn01 ~]# yum install --assumeyes cloudera-manager-daemons cloudera-manager-server
 Loaded plugins: fastestmirror, refresh-packagekit, security
