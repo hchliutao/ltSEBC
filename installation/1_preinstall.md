@@ -1,9 +1,7 @@
 
-# vi /etc/sysconfig/network
-NETWORKING=yes
-HOSTNAME=xxxxx
-NETWORKING_IPV6=no
-.....
+vi /etc/sysconfig/network
+HOSTNAME=xxxxx<br>
+#hostname xxxx<br>
 
 # vi /etc/hosts
 192.168.60.71 nn01
