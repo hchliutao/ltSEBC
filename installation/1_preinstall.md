@@ -1,5 +1,5 @@
 
-vi /etc/sysconfig/network
+vi /etc/sysconfig/network<br>
 HOSTNAME=xxxxx<br>
 #hostname xxxx<br>
 
