@@ -26,8 +26,6 @@ iptables: Firewall is not running.<br>
 [root@nn01 /]# <br>
 
 [root@nn01 /]# cat /etc/selinux/config  | grep SELINUX<br>
-# SELINUX= can take one of these three values:<br>
-#SELINUX=enforcing<br>
 SELINUX=disabled<br>
 
 [root@nn01 /]# cd /var/www/html/java/<br>
