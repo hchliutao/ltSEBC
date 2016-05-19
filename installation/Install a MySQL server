@@ -1,0 +1,128 @@
+[root@DB_Server ~]# yum install -y mysql-community-devel mysql-community-server mysql-community-client mysql-community-common mysql-community-libs
+[root@mysql ~]# yum install -y mysql-community-devel mysql-community-server mysql-community-client mysql-community-common mysql-community-libs
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Repository mysql56-community is listed more than once in the configuration
+Loading mirror speeds from cached hostfile
+ * base: mirrors.btte.net
+ * extras: mirrors.btte.net
+ * updates: mirrors.pubyun.com
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package mysql.x86_64 0:5.1.71-1.el6 will be obsoleted
+---> Package mysql-community-client.x86_64 0:5.5.49-2.el6 will be obsoleting
+---> Package mysql-community-common.x86_64 0:5.5.49-2.el6 will be installed
+---> Package mysql-community-devel.x86_64 0:5.5.49-2.el6 will be installed
+---> Package mysql-community-libs.x86_64 0:5.5.49-2.el6 will be obsoleting
+---> Package mysql-community-server.x86_64 0:5.5.49-2.el6 will be obsoleting
+---> Package mysql-libs.x86_64 0:5.1.71-1.el6 will be obsoleted
+--> Processing Dependency: libmysqlclient.so.16()(64bit) for package: 2:postfix-2.6.6-2.2.el6_1.x86_64
+--> Processing Dependency: libmysqlclient.so.16()(64bit) for package: redland-1.0.7-11.el6.x86_64
+--> Processing Dependency: libmysqlclient.so.16()(64bit) for package: perl-DBD-MySQL-4.013-3.el6.x86_64
+--> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: 2:postfix-2.6.6-2.2.el6_1.x86_64
+--> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: redland-1.0.7-11.el6.x86_64
+--> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: perl-DBD-MySQL-4.013-3.el6.x86_64
+--> Processing Dependency: libmysqlclient_r.so.16()(64bit) for package: 1:qt-mysql-4.6.2-26.el6_4.x86_64
+--> Processing Dependency: libmysqlclient_r.so.16(libmysqlclient_16)(64bit) for package: 1:qt-mysql-4.6.2-26.el6_4.x86_64
+---> Package mysql-server.x86_64 0:5.1.71-1.el6 will be obsoleted
+--> Running transaction check
+---> Package mysql-community-libs-compat.x86_64 0:5.5.49-2.el6 will be obsoleting
+---> Package postfix.x86_64 2:2.6.6-2.2.el6_1 will be updated
+---> Package postfix.x86_64 2:2.6.6-6.el6_7.1 will be an update
+---> Package qt-mysql.x86_64 1:4.6.2-26.el6_4 will be updated
+---> Package qt-mysql.x86_64 1:4.6.2-28.el6_5 will be an update
+--> Processing Dependency: qt(x86-64) = 1:4.6.2-28.el6_5 for package: 1:qt-mysql-4.6.2-28.el6_5.x86_64
+--> Running transaction check
+---> Package qt.x86_64 1:4.6.2-26.el6_4 will be updated
+--> Processing Dependency: qt(x86-64) = 1:4.6.2-26.el6_4 for package: 1:qt-sqlite-4.6.2-26.el6_4.x86_64
+--> Processing Dependency: qt(x86-64) = 1:4.6.2-26.el6_4 for package: 1:qt-x11-4.6.2-26.el6_4.x86_64
+---> Package qt.x86_64 1:4.6.2-28.el6_5 will be an update
+--> Running transaction check
+---> Package qt-sqlite.x86_64 1:4.6.2-26.el6_4 will be updated
+---> Package qt-sqlite.x86_64 1:4.6.2-28.el6_5 will be an update
+---> Package qt-x11.x86_64 1:4.6.2-26.el6_4 will be updated
+---> Package qt-x11.x86_64 1:4.6.2-28.el6_5 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=========================================================================================================================
+ Package                               Arch             Version                        Repository                   Size
+=========================================================================================================================
+Installing:
+ mysql-community-client                x86_64           5.5.49-2.el6                   mysql56-community            15 M
+     replacing  mysql.x86_64 5.1.71-1.el6
+ mysql-community-common                x86_64           5.5.49-2.el6                   mysql56-community           277 k
+ mysql-community-devel                 x86_64           5.5.49-2.el6                   mysql56-community           2.9 M
+ mysql-community-libs                  x86_64           5.5.49-2.el6                   mysql56-community           1.7 M
+     replacing  mysql-libs.x86_64 5.1.71-1.el6
+ mysql-community-libs-compat           x86_64           5.5.49-2.el6                   mysql56-community           1.6 M
+     replacing  mysql-libs.x86_64 5.1.71-1.el6
+ mysql-community-server                x86_64           5.5.49-2.el6                   mysql56-community            38 M
+     replacing  mysql-server.x86_64 5.1.71-1.el6
+Updating for dependencies:
+ postfix                               x86_64           2:2.6.6-6.el6_7.1              updates                     2.0 M
+ qt                                    x86_64           1:4.6.2-28.el6_5               base                        3.9 M
+ qt-mysql                              x86_64           1:4.6.2-28.el6_5               base                         59 k
+ qt-sqlite                             x86_64           1:4.6.2-28.el6_5               base                         51 k
+ qt-x11                                x86_64           1:4.6.2-28.el6_5               base                         12 M
+
+Transaction Summary
+=========================================================================================================================
+Install       6 Package(s)
+Upgrade       5 Package(s)
+
+Total download size: 77 M
+Downloading Packages:
+(1/11): mysql-community-client-5.5.49-2.el6.x86_64.rpm                                            |  15 MB     04:27     
+(2/11): mysql-community-common-5.5.49-2.el6.x86_64.rpm                                            | 277 kB     00:05     
+(3/11): mysql-community-devel-5.5.49-2.el6.x86_64.rpm                                             | 2.9 MB     01:02     
+(4/11): mysql-community-libs-5.5.49-2.el6.x86_64.rpm                                              | 1.7 MB     00:34     
+(5/11): mysql-community-libs-compat-5.5.49-2.el6.x86_64.rpm                                       | 1.6 MB     00:29     
+(6/11): mysql-community-server-5.5.49-2.el (42%) 30% [==========                       ]  46 kB/s |  12 MB     09:37 ETA
+.....
+Complete!
+
+ 
+[root@mysql ~]#
+
+
+
+#2. Enable MySQL-Server
+[root@mysql ~]# service mysqld start
+Initializing MySQL database:  Installing MySQL system tables...
+OK
+Filling help tables...
+OK
+
+To start mysqld at boot time you have to copy
+support-files/mysql.server to the right place for your system
+
+PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+To do so, start the server, then issue the following commands:
+
+/usr/bin/mysqladmin -u root password 'new-password'
+/usr/bin/mysqladmin -u root -h mysql password 'new-password'
+
+Alternatively you can run:
+/usr/bin/mysql_secure_installation
+
+which will also give you the option of removing the test
+databases and anonymous user created by default.  This is
+strongly recommended for production servers.
+
+See the manual for more instructions.
+
+You can start the MySQL daemon with:
+cd /usr ; /usr/bin/mysqld_safe &
+
+You can test the MySQL daemon with mysql-test-run.pl
+cd /usr/mysql-test ; perl mysql-test-run.pl
+
+Please report any problems with the /usr/bin/mysqlbug script!
+
+                                                           [  OK  ]
+Starting mysqld:                                           [  OK  ]
+[root@mysql ~]# 
+[root@mysql ~]# 
+[root@mysql ~]# chkconfig mysqld on 
