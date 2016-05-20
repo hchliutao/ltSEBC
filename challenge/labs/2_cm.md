@@ -1,88 +1,88 @@
 [root@node01 ~]# yum install -y cloudera-manager-server cloudera-manager-daemons cloudera-manager-agent<br>
 Loaded plugins: fastestmirror, refresh-packagekit, security<br>
-Loading mirror speeds from cached hostfile
- * base: mirrors.aliyun.com
+Loading mirror speeds from cached hostfile<br>
+ * base: mirrors.aliyun.com<br>
  * extras: mirror.bit.edu.cn
  * updates: mirror.bit.edu.cn
-cloudera-manager                                                                                               |  951 B     00:00     
-cloudera-manager/primary                                                                                       | 4.1 kB     00:00     
-cloudera-manager                                                                                                                  7/7
-Setting up Install Process
-Resolving Dependencies
---> Running transaction check
----> Package cloudera-manager-agent.x86_64 0:5.6.0-1.cm560.p0.54.el6 will be installed
+cloudera-manager                                                                                               |  951 B     00:00 <br>    
+cloudera-manager/primary                                                                                       | 4.1 kB     00:00  <br>   
+cloudera-manager              <br>                                                                                                    7/7
+Setting up Install Process<br>
+Resolving Dependencies<br>
+--> Running transaction check<br>
+---> Package cloudera-manager-agent.x86_64 0:5.6.0-1.cm560.p0.54.el6 will be installed<br>
 cloudera-manager/filelists                                                                                     |  96 kB     00:00     
---> Processing Dependency: mod_ssl for package: cloudera-manager-agent-5.6.0-1.cm560.p0.54.el6.x86_64
---> Processing Dependency: MySQL-python for package: cloudera-manager-agent-5.6.0-1.cm560.p0.54.el6.x86_64
---> Processing Dependency: python-psycopg2 for package: cloudera-manager-agent-5.6.0-1.cm560.p0.54.el6.x86_64
---> Processing Dependency: openssl-devel for package: cloudera-manager-agent-5.6.0-1.cm560.p0.54.el6.x86_64
----> Package cloudera-manager-daemons.x86_64 0:5.6.0-1.cm560.p0.54.el6 will be installed
----> Package cloudera-manager-server.x86_64 0:5.6.0-1.cm560.p0.54.el6 will be installed
---> Running transaction check
----> Package MySQL-python.x86_64 0:1.2.3-0.3.c1.1.el6 will be installed
----> Package mod_ssl.x86_64 1:2.2.15-47.el6.centos.4 will be installed
---> Processing Dependency: httpd = 2.2.15-47.el6.centos.4 for package: 1:mod_ssl-2.2.15-47.el6.centos.4.x86_64
----> Package openssl-devel.x86_64 0:1.0.1e-42.el6_7.4 will be installed
---> Processing Dependency: openssl = 1.0.1e-42.el6_7.4 for package: openssl-devel-1.0.1e-42.el6_7.4.x86_64
---> Processing Dependency: zlib-devel for package: openssl-devel-1.0.1e-42.el6_7.4.x86_64
---> Processing Dependency: krb5-devel for package: openssl-devel-1.0.1e-42.el6_7.4.x86_64
----> Package python-psycopg2.x86_64 0:2.0.14-2.el6 will be installed
---> Running transaction check
----> Package httpd.x86_64 0:2.2.15-29.el6.centos will be updated
----> Package httpd.x86_64 0:2.2.15-47.el6.centos.4 will be an update
---> Processing Dependency: httpd-tools = 2.2.15-47.el6.centos.4 for package: httpd-2.2.15-47.el6.centos.4.x86_64
----> Package krb5-devel.x86_64 0:1.10.3-42z1.el6_7 will be installed
---> Processing Dependency: krb5-libs = 1.10.3-42z1.el6_7 for package: krb5-devel-1.10.3-42z1.el6_7.x86_64
---> Processing Dependency: libselinux-devel for package: krb5-devel-1.10.3-42z1.el6_7.x86_64
---> Processing Dependency: libcom_err-devel for package: krb5-devel-1.10.3-42z1.el6_7.x86_64
---> Processing Dependency: keyutils-libs-devel for package: krb5-devel-1.10.3-42z1.el6_7.x86_64
----> Package openssl.x86_64 0:1.0.1e-15.el6 will be updated
----> Package openssl.x86_64 0:1.0.1e-42.el6_7.4 will be an update
----> Package zlib-devel.x86_64 0:1.2.3-29.el6 will be installed
---> Running transaction check
----> Package httpd-tools.x86_64 0:2.2.15-29.el6.centos will be updated
----> Package httpd-tools.x86_64 0:2.2.15-47.el6.centos.4 will be an update
----> Package keyutils-libs-devel.x86_64 0:1.4-5.el6 will be installed
---> Processing Dependency: keyutils-libs = 1.4-5.el6 for package: keyutils-libs-devel-1.4-5.el6.x86_64
----> Package krb5-libs.x86_64 0:1.10.3-10.el6_4.6 will be updated
---> Processing Dependency: krb5-libs = 1.10.3-10.el6_4.6 for package: krb5-workstation-1.10.3-10.el6_4.6.x86_64
----> Package krb5-libs.x86_64 0:1.10.3-42z1.el6_7 will be an update
----> Package libcom_err-devel.x86_64 0:1.41.12-22.el6 will be installed
---> Processing Dependency: libcom_err = 1.41.12-22.el6 for package: libcom_err-devel-1.41.12-22.el6.x86_64
----> Package libselinux-devel.x86_64 0:2.0.94-5.8.el6 will be installed
---> Processing Dependency: libselinux = 2.0.94-5.8.el6 for package: libselinux-devel-2.0.94-5.8.el6.x86_64
---> Processing Dependency: libsepol-devel >= 2.0.32-1 for package: libselinux-devel-2.0.94-5.8.el6.x86_64
---> Processing Dependency: pkgconfig(libsepol) for package: libselinux-devel-2.0.94-5.8.el6.x86_64
---> Running transaction check
----> Package keyutils-libs.x86_64 0:1.4-4.el6 will be updated
---> Processing Dependency: keyutils-libs = 1.4-4.el6 for package: keyutils-1.4-4.el6.x86_64
----> Package keyutils-libs.x86_64 0:1.4-5.el6 will be an update
----> Package krb5-workstation.x86_64 0:1.10.3-10.el6_4.6 will be updated
----> Package krb5-workstation.x86_64 0:1.10.3-42z1.el6_7 will be an update
----> Package libcom_err.x86_64 0:1.41.12-18.el6 will be updated
---> Processing Dependency: libcom_err = 1.41.12-18.el6 for package: e2fsprogs-libs-1.41.12-18.el6.x86_64
---> Processing Dependency: libcom_err = 1.41.12-18.el6 for package: libss-1.41.12-18.el6.x86_64
---> Processing Dependency: libcom_err = 1.41.12-18.el6 for package: e2fsprogs-1.41.12-18.el6.x86_64
----> Package libcom_err.x86_64 0:1.41.12-22.el6 will be an update
----> Package libselinux.x86_64 0:2.0.94-5.3.el6_4.1 will be updated
---> Processing Dependency: libselinux = 2.0.94-5.3.el6_4.1 for package: libselinux-python-2.0.94-5.3.el6_4.1.x86_64
---> Processing Dependency: libselinux = 2.0.94-5.3.el6_4.1 for package: libselinux-utils-2.0.94-5.3.el6_4.1.x86_64
----> Package libselinux.x86_64 0:2.0.94-5.8.el6 will be an update
----> Package libsepol-devel.x86_64 0:2.0.41-4.el6 will be installed
---> Running transaction check
----> Package e2fsprogs.x86_64 0:1.41.12-18.el6 will be updated
----> Package e2fsprogs.x86_64 0:1.41.12-22.el6 will be an update
----> Package e2fsprogs-libs.x86_64 0:1.41.12-18.el6 will be updated
----> Package e2fsprogs-libs.x86_64 0:1.41.12-22.el6 will be an update
----> Package keyutils.x86_64 0:1.4-4.el6 will be updated
----> Package keyutils.x86_64 0:1.4-5.el6 will be an update
----> Package libselinux-python.x86_64 0:2.0.94-5.3.el6_4.1 will be updated
----> Package libselinux-python.x86_64 0:2.0.94-5.8.el6 will be an update
----> Package libselinux-utils.x86_64 0:2.0.94-5.3.el6_4.1 will be updated
----> Package libselinux-utils.x86_64 0:2.0.94-5.8.el6 will be an update
----> Package libss.x86_64 0:1.41.12-18.el6 will be updated
----> Package libss.x86_64 0:1.41.12-22.el6 will be an update
---> Finished Dependency Resolution
+--> Processing Dependency: mod_ssl for package: cloudera-manager-agent-5.6.0-1.cm560.p0.54.el6.x86_64<br>
+--> Processing Dependency: MySQL-python for package: cloudera-manager-agent-5.6.0-1.cm560.p0.54.el6.x86_64<br>
+--> Processing Dependency: python-psycopg2 for package: cloudera-manager-agent-5.6.0-1.cm560.p0.54.el6.x86_64<br>
+--> Processing Dependency: openssl-devel for package: cloudera-manager-agent-5.6.0-1.cm560.p0.54.el6.x86_64<br>
+---> Package cloudera-manager-daemons.x86_64 0:5.6.0-1.cm560.p0.54.el6 will be installed<br>
+---> Package cloudera-manager-server.x86_64 0:5.6.0-1.cm560.p0.54.el6 will be installed<br>
+--> Running transaction check<br>
+---> Package MySQL-python.x86_64 0:1.2.3-0.3.c1.1.el6 will be installed<br>
+---> Package mod_ssl.x86_64 1:2.2.15-47.el6.centos.4 will be installed<br>
+--> Processing Dependency: httpd = 2.2.15-47.el6.centos.4 for package: 1:mod_ssl-2.2.15-47.el6.centos.4.x86_64<br>
+---> Package openssl-devel.x86_64 0:1.0.1e-42.el6_7.4 will be installed<br>
+--> Processing Dependency: openssl = 1.0.1e-42.el6_7.4 for package: openssl-devel-1.0.1e-42.el6_7.4.x86_64<br>
+--> Processing Dependency: zlib-devel for package: openssl-devel-1.0.1e-42.el6_7.4.x86_64<br>
+--> Processing Dependency: krb5-devel for package: openssl-devel-1.0.1e-42.el6_7.4.x86_64<br>
+---> Package python-psycopg2.x86_64 0:2.0.14-2.el6 will be installed<br>
+--> Running transaction check<br>
+---> Package httpd.x86_64 0:2.2.15-29.el6.centos will be updated<br>
+---> Package httpd.x86_64 0:2.2.15-47.el6.centos.4 will be an update<br>
+--> Processing Dependency: httpd-tools = 2.2.15-47.el6.centos.4 for package: httpd-2.2.15-47.el6.centos.4.x86_64<br>
+---> Package krb5-devel.x86_64 0:1.10.3-42z1.el6_7 will be installed<br>
+--> Processing Dependency: krb5-libs = 1.10.3-42z1.el6_7 for package: krb5-devel-1.10.3-42z1.el6_7.x86_64<br>
+--> Processing Dependency: libselinux-devel for package: krb5-devel-1.10.3-42z1.el6_7.x86_64<br>
+--> Processing Dependency: libcom_err-devel for package: krb5-devel-1.10.3-42z1.el6_7.x86_64<br>
+--> Processing Dependency: keyutils-libs-devel for package: krb5-devel-1.10.3-42z1.el6_7.x86_64<br>
+---> Package openssl.x86_64 0:1.0.1e-15.el6 will be updated<br>
+---> Package openssl.x86_64 0:1.0.1e-42.el6_7.4 will be an update<br>
+---> Package zlib-devel.x86_64 0:1.2.3-29.el6 will be installed<br>
+--> Running transaction check<br>
+---> Package httpd-tools.x86_64 0:2.2.15-29.el6.centos will be updated<br>
+---> Package httpd-tools.x86_64 0:2.2.15-47.el6.centos.4 will be an update<br>
+---> Package keyutils-libs-devel.x86_64 0:1.4-5.el6 will be installed<br>
+--> Processing Dependency: keyutils-libs = 1.4-5.el6 for package: keyutils-libs-devel-1.4-5.el6.x86_64<br>
+---> Package krb5-libs.x86_64 0:1.10.3-10.el6_4.6 will be updated<br>
+--> Processing Dependency: krb5-libs = 1.10.3-10.el6_4.6 for package: krb5-workstation-1.10.3-10.el6_4.6.x86_64<br>
+---> Package krb5-libs.x86_64 0:1.10.3-42z1.el6_7 will be an update<br>
+---> Package libcom_err-devel.x86_64 0:1.41.12-22.el6 will be installed<br>
+--> Processing Dependency: libcom_err = 1.41.12-22.el6 for package: libcom_err-devel-1.41.12-22.el6.x86_64<br>
+---> Package libselinux-devel.x86_64 0:2.0.94-5.8.el6 will be installed<br>
+--> Processing Dependency: libselinux = 2.0.94-5.8.el6 for package: libselinux-devel-2.0.94-5.8.el6.x86_64<br>
+--> Processing Dependency: libsepol-devel >= 2.0.32-1 for package: libselinux-devel-2.0.94-5.8.el6.x86_64<br>
+--> Processing Dependency: pkgconfig(libsepol) for package: libselinux-devel-2.0.94-5.8.el6.x86_64<br>
+--> Running transaction check<br>
+---> Package keyutils-libs.x86_64 0:1.4-4.el6 will be updated<br>
+--> Processing Dependency: keyutils-libs = 1.4-4.el6 for package: keyutils-1.4-4.el6.x86_64<br>
+---> Package keyutils-libs.x86_64 0:1.4-5.el6 will be an update<br>
+---> Package krb5-workstation.x86_64 0:1.10.3-10.el6_4.6 will be updated<br>
+---> Package krb5-workstation.x86_64 0:1.10.3-42z1.el6_7 will be an update<br>
+---> Package libcom_err.x86_64 0:1.41.12-18.el6 will be updated<br>
+--> Processing Dependency: libcom_err = 1.41.12-18.el6 for package: e2fsprogs-libs-1.41.12-18.el6.x86_64<br>
+--> Processing Dependency: libcom_err = 1.41.12-18.el6 for package: libss-1.41.12-18.el6.x86_64<br>
+--> Processing Dependency: libcom_err = 1.41.12-18.el6 for package: e2fsprogs-1.41.12-18.el6.x86_64<br>
+---> Package libcom_err.x86_64 0:1.41.12-22.el6 will be an update<br>
+---> Package libselinux.x86_64 0:2.0.94-5.3.el6_4.1 will be updated<br>
+--> Processing Dependency: libselinux = 2.0.94-5.3.el6_4.1 for package: libselinux-python-2.0.94-5.3.el6_4.1.x86_64<br>
+--> Processing Dependency: libselinux = 2.0.94-5.3.el6_4.1 for package: libselinux-utils-2.0.94-5.3.el6_4.1.x86_64<br>
+---> Package libselinux.x86_64 0:2.0.94-5.8.el6 will be an update<br>
+---> Package libsepol-devel.x86_64 0:2.0.41-4.el6 will be installed<br>
+--> Running transaction check<br>
+---> Package e2fsprogs.x86_64 0:1.41.12-18.el6 will be updated<br>
+---> Package e2fsprogs.x86_64 0:1.41.12-22.el6 will be an update<br>
+---> Package e2fsprogs-libs.x86_64 0:1.41.12-18.el6 will be updated<br>
+---> Package e2fsprogs-libs.x86_64 0:1.41.12-22.el6 will be an update<br>
+---> Package keyutils.x86_64 0:1.4-4.el6 will be updated<br>
+---> Package keyutils.x86_64 0:1.4-5.el6 will be an update<br>
+---> Package libselinux-python.x86_64 0:2.0.94-5.3.el6_4.1 will be updated<br>
+---> Package libselinux-python.x86_64 0:2.0.94-5.8.el6 will be an update<br>
+---> Package libselinux-utils.x86_64 0:2.0.94-5.3.el6_4.1 will be updated<br>
+---> Package libselinux-utils.x86_64 0:2.0.94-5.8.el6 will be an update<br>
+---> Package libss.x86_64 0:1.41.12-18.el6 will be updated<br>
+---> Package libss.x86_64 0:1.41.12-22.el6 will be an update<br>
+--> Finished Dependency Resolution<br>
 
 Dependencies Resolved
 
