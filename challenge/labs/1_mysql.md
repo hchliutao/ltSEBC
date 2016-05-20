@@ -103,56 +103,56 @@ Warning: RPMDB altered outside of yum.<br>
 1:libreoffice-core-4.0.4.2-9.el6.x86_64 has missing requires of libjawt.so()(64bit)<br>
 1:libreoffice-core-4.0.4.2-9.el6.x86_64 has missing requires of libjawt.so(SUNWprivate_1.1)(64bit)<br>
 1:libreoffice-ure-4.0.4.2-9.el6.x86_64 has missing requires of jre >= ('0', '1.5.0', None)<br>
-  Updating   : 1:qt-4.6.2-28.el6_5.x86_64                                                                           1/19 
-  Installing : mysql-community-common-5.6.30-2.el6.x86_64                                                           2/19 
-  Installing : mysql-community-libs-5.6.30-2.el6.x86_64                                                             3/19 
-  Installing : mysql-community-libs-compat-5.6.30-2.el6.x86_64                                                      4/19 
-  Installing : mysql-community-client-5.6.30-2.el6.x86_64                                                           5/19 
-  Updating   : 1:qt-sqlite-4.6.2-28.el6_5.x86_64                                                                    6/19 
-  Updating   : 1:qt-x11-4.6.2-28.el6_5.x86_64                                                                       7/19 
-  Installing : mysql-community-server-5.6.30-2.el6.x86_64                                                           8/19 
-  Updating   : 2:postfix-2.6.6-6.el6_7.1.x86_64                                                                     9/19 
-  Updating   : 1:qt-mysql-4.6.2-28.el6_5.x86_64                                                                    10/19 
-  Installing : mysql-community-devel-5.6.30-2.el6.x86_64                                                           11/19 
-  Cleanup    : 1:qt-mysql-4.6.2-26.el6_4.x86_64                                                                    12/19 
-  Cleanup    : 1:qt-x11-4.6.2-26.el6_4.x86_64                                                                      13/19 
-  Erasing    : mysql-server-5.1.71-1.el6.x86_64                                                                    14/19 
-  Erasing    : mysql-5.1.71-1.el6.x86_64                                                                           15/19 
-  Cleanup    : 1:qt-sqlite-4.6.2-26.el6_4.x86_64                                                                   16/19 
-  Cleanup    : 2:postfix-2.6.6-2.2.el6_1.x86_64                                                                    17/19 
-  Erasing    : mysql-libs-5.1.71-1.el6.x86_64                                                                      18/19 
-  Cleanup    : 1:qt-4.6.2-26.el6_4.x86_64                                                                          19/19 
-  Verifying  : mysql-community-libs-compat-5.6.30-2.el6.x86_64                                                      1/19 
-  Verifying  : mysql-community-devel-5.6.30-2.el6.x86_64                                                            2/19 
-  Verifying  : mysql-community-server-5.6.30-2.el6.x86_64                                                           3/19 
-  Verifying  : 2:postfix-2.6.6-6.el6_7.1.x86_64                                                                     4/19 
-  Verifying  : 1:qt-4.6.2-28.el6_5.x86_64                                                                           5/19 
-  Verifying  : mysql-community-client-5.6.30-2.el6.x86_64                                                           6/19 
-  Verifying  : 1:qt-mysql-4.6.2-28.el6_5.x86_64                                                                     7/19 
-  Verifying  : 1:qt-x11-4.6.2-28.el6_5.x86_64                                                                       8/19 
-  Verifying  : mysql-community-libs-5.6.30-2.el6.x86_64                                                             9/19 
-  Verifying  : mysql-community-common-5.6.30-2.el6.x86_64                                                          10/19 
-  Verifying  : 1:qt-sqlite-4.6.2-28.el6_5.x86_64                                                                   11/19 
-  Verifying  : 1:qt-x11-4.6.2-26.el6_4.x86_64                                                                      12/19 
-  Verifying  : 1:qt-sqlite-4.6.2-26.el6_4.x86_64                                                                   13/19 
-  Verifying  : 2:postfix-2.6.6-2.2.el6_1.x86_64                                                                    14/19 
-  Verifying  : mysql-libs-5.1.71-1.el6.x86_64                                                                      15/19 
-  Verifying  : 1:qt-4.6.2-26.el6_4.x86_64                                                                          16/19 
-  Verifying  : mysql-server-5.1.71-1.el6.x86_64                                                                    17/19 
-  Verifying  : mysql-5.1.71-1.el6.x86_64                                                                           18/19 
-  Verifying  : 1:qt-mysql-4.6.2-26.el6_4.x86_64                                                                    19/19 
+  Updating   : 1:qt-4.6.2-28.el6_5.x86_64                                                                           1/19 <br>
+  Installing : mysql-community-common-5.6.30-2.el6.x86_64                                                           2/19 <br>
+  Installing : mysql-community-libs-5.6.30-2.el6.x86_64                                                             3/19 <br>
+  Installing : mysql-community-libs-compat-5.6.30-2.el6.x86_64                                                      4/19 <br>
+  Installing : mysql-community-client-5.6.30-2.el6.x86_64                                                           5/19 <br>
+  Updating   : 1:qt-sqlite-4.6.2-28.el6_5.x86_64                                                                    6/19 <br>
+  Updating   : 1:qt-x11-4.6.2-28.el6_5.x86_64                                                                       7/19 <br>
+  Installing : mysql-community-server-5.6.30-2.el6.x86_64                                                           8/19 <br>
+  Updating   : 2:postfix-2.6.6-6.el6_7.1.x86_64                                                                     9/19 <br>
+  Updating   : 1:qt-mysql-4.6.2-28.el6_5.x86_64                                                                    10/19 <br>
+  Installing : mysql-community-devel-5.6.30-2.el6.x86_64                                                           11/19 <br>
+  Cleanup    : 1:qt-mysql-4.6.2-26.el6_4.x86_64                                                                    12/19 <br>
+  Cleanup    : 1:qt-x11-4.6.2-26.el6_4.x86_64                                                                      13/19 <br>
+  Erasing    : mysql-server-5.1.71-1.el6.x86_64                                                                    14/19 <br>
+  Erasing    : mysql-5.1.71-1.el6.x86_64                                                                           15/19 <br>
+  Cleanup    : 1:qt-sqlite-4.6.2-26.el6_4.x86_64                                                                   16/19 <br><br>
+  Cleanup    : 2:postfix-2.6.6-2.2.el6_1.x86_64                                                                    17/19 <br>
+  Erasing    : mysql-libs-5.1.71-1.el6.x86_64                                                                      18/19 <br>
+  Cleanup    : 1:qt-4.6.2-26.el6_4.x86_64                                                                          19/19 <br>
+  Verifying  : mysql-community-libs-compat-5.6.30-2.el6.x86_64                                                      1/19 <br>
+  Verifying  : mysql-community-devel-5.6.30-2.el6.x86_64                                                            2/19 <br>
+  Verifying  : mysql-community-server-5.6.30-2.el6.x86_64                                                           3/19 <br>
+  Verifying  : 2:postfix-2.6.6-6.el6_7.1.x86_64                                                                     4/19 <br>
+  Verifying  : 1:qt-4.6.2-28.el6_5.x86_64                                                                           5/19 <br>
+  Verifying  : mysql-community-client-5.6.30-2.el6.x86_64                                                           6/19 <br>
+  Verifying  : 1:qt-mysql-4.6.2-28.el6_5.x86_64                                                                     7/19 <br>
+  Verifying  : 1:qt-x11-4.6.2-28.el6_5.x86_64                                                                       8/19 <br>
+  Verifying  : mysql-community-libs-5.6.30-2.el6.x86_64                                                             9/19 <br>
+  Verifying  : mysql-community-common-5.6.30-2.el6.x86_64                                                          10/19 <br>
+  Verifying  : 1:qt-sqlite-4.6.2-28.el6_5.x86_64                                                                   11/19 <br>
+  Verifying  : 1:qt-x11-4.6.2-26.el6_4.x86_64                                                                      12/19 <br>
+  Verifying  : 1:qt-sqlite-4.6.2-26.el6_4.x86_64                                                                   13/19 <br>
+  Verifying  : 2:postfix-2.6.6-2.2.el6_1.x86_64                                                                    14/19 <br>
+  Verifying  : mysql-libs-5.1.71-1.el6.x86_64                                                                      15/19 <br>
+  Verifying  : 1:qt-4.6.2-26.el6_4.x86_64                                                                          16/19 <br>
+  Verifying  : mysql-server-5.1.71-1.el6.x86_64                                                                    17/19 <br>
+  Verifying  : mysql-5.1.71-1.el6.x86_64                                                                           18/19 <br>
+  Verifying  : 1:qt-mysql-4.6.2-26.el6_4.x86_64                                                                    19/19 <br>
 
 Installed:
-  mysql-community-client.x86_64 0:5.6.30-2.el6                  mysql-community-common.x86_64 0:5.6.30-2.el6            
-  mysql-community-devel.x86_64 0:5.6.30-2.el6                   mysql-community-libs.x86_64 0:5.6.30-2.el6              
-  mysql-community-libs-compat.x86_64 0:5.6.30-2.el6             mysql-community-server.x86_64 0:5.6.30-2.el6            
+  mysql-community-client.x86_64 0:5.6.30-2.el6                  mysql-community-common.x86_64 0:5.6.30-2.el6       <br>     
+  mysql-community-devel.x86_64 0:5.6.30-2.el6                   mysql-community-libs.x86_64 0:5.6.30-2.el6             <br> 
+  mysql-community-libs-compat.x86_64 0:5.6.30-2.el6             mysql-community-server.x86_64 0:5.6.30-2.el6            <br>
 
-Dependency Updated:
-  postfix.x86_64 2:2.6.6-6.el6_7.1         qt.x86_64 1:4.6.2-28.el6_5            qt-mysql.x86_64 1:4.6.2-28.el6_5       
-  qt-sqlite.x86_64 1:4.6.2-28.el6_5        qt-x11.x86_64 1:4.6.2-28.el6_5       
+Dependency Updated:<br>
+  postfix.x86_64 2:2.6.6-6.el6_7.1         qt.x86_64 1:4.6.2-28.el6_5            qt-mysql.x86_64 1:4.6.2-28.el6_5   <br>    
+  qt-sqlite.x86_64 1:4.6.2-28.el6_5        qt-x11.x86_64 1:4.6.2-28.el6_5       <br>
 
 Replaced:
-  mysql.x86_64 0:5.1.71-1.el6         mysql-libs.x86_64 0:5.1.71-1.el6         mysql-server.x86_64 0:5.1.71-1.el6        
+  mysql.x86_64 0:5.1.71-1.el6         mysql-libs.x86_64 0:5.1.71-1.el6         mysql-server.x86_64 0:5.1.71-1.el6     <br>   
 
 Complete!<br>
 
