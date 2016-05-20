@@ -1,64 +1,64 @@
- -----------------------
- [root@mysql ~]# yum repolist enabled
-Loaded plugins: fastestmirror, refresh-packagekit, security
-Loading mirror speeds from cached hostfile
- * base: mirror.bit.edu.cn
- * extras: mirror.bit.edu.cn
- * updates: mirror.bit.edu.cn
-repo id                                              repo name                                                     status
-base                                                 CentOS-6 - Base                                               6,575
-extras                                               CentOS-6 - Extras                                                62
-mysql56-community                                    MySQL 5.6 Community Server                                      248
-updates                                              CentOS-6 - Updates                                            1,622
+ -----------------------<br>
+ [root@mysql ~]# yum repolist enabled<br>
+Loaded plugins: fastestmirror, refresh-packagekit, security<br>
+Loading mirror speeds from cached hostfile<br>
+ * base: mirror.bit.edu.cn<br>
+ * extras: mirror.bit.edu.cn<br>
+ * updates: mirror.bit.edu.cn<br>
+repo id                                              repo name                                                     status<br>
+base                                                 CentOS-6 - Base                                               6,575<br>
+extras                                               CentOS-6 - Extras                                                62<br>
+mysql56-community                                    MySQL 5.6 Community Server                                      248<br>
+updates                                              CentOS-6 - Updates                                            1,622<br>
 repolist: 8,507
-[root@mysql ~]# 
+[root@mysql ~]# <br>
 
------------------------------------
-[root@mysql ~]# yum install -y mysql-community-devel mysql-community-server mysql-community-client mysql-community-common mysql-community-libs
-Loaded plugins: fastestmirror, refresh-packagekit, security
-Loading mirror speeds from cached hostfile
- * base: mirror.bit.edu.cn
- * extras: mirror.bit.edu.cn
- * updates: mirror.bit.edu.cn
-Setting up Install Process
-Resolving Dependencies
---> Running transaction check
----> Package mysql.x86_64 0:5.1.71-1.el6 will be obsoleted
----> Package mysql-community-client.x86_64 0:5.6.30-2.el6 will be obsoleting
----> Package mysql-community-common.x86_64 0:5.6.30-2.el6 will be installed
----> Package mysql-community-devel.x86_64 0:5.6.30-2.el6 will be installed
----> Package mysql-community-libs.x86_64 0:5.6.30-2.el6 will be obsoleting
----> Package mysql-community-server.x86_64 0:5.6.30-2.el6 will be obsoleting
----> Package mysql-libs.x86_64 0:5.1.71-1.el6 will be obsoleted
---> Processing Dependency: libmysqlclient.so.16()(64bit) for package: 2:postfix-2.6.6-2.2.el6_1.x86_64
---> Processing Dependency: libmysqlclient.so.16()(64bit) for package: redland-1.0.7-11.el6.x86_64
---> Processing Dependency: libmysqlclient.so.16()(64bit) for package: perl-DBD-MySQL-4.013-3.el6.x86_64
---> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: 2:postfix-2.6.6-2.2.el6_1.x86_64
---> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: redland-1.0.7-11.el6.x86_64
---> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: perl-DBD-MySQL-4.013-3.el6.x86_64
---> Processing Dependency: libmysqlclient_r.so.16()(64bit) for package: 1:qt-mysql-4.6.2-26.el6_4.x86_64
---> Processing Dependency: libmysqlclient_r.so.16(libmysqlclient_16)(64bit) for package: 1:qt-mysql-4.6.2-26.el6_4.x86_64
----> Package mysql-server.x86_64 0:5.1.71-1.el6 will be obsoleted
---> Running transaction check
----> Package mysql-community-libs-compat.x86_64 0:5.6.30-2.el6 will be obsoleting
----> Package postfix.x86_64 2:2.6.6-2.2.el6_1 will be updated
----> Package postfix.x86_64 2:2.6.6-6.el6_7.1 will be an update
----> Package qt-mysql.x86_64 1:4.6.2-26.el6_4 will be updated
----> Package qt-mysql.x86_64 1:4.6.2-28.el6_5 will be an update
---> Processing Dependency: qt(x86-64) = 1:4.6.2-28.el6_5 for package: 1:qt-mysql-4.6.2-28.el6_5.x86_64
---> Running transaction check
----> Package qt.x86_64 1:4.6.2-26.el6_4 will be updated
---> Processing Dependency: qt(x86-64) = 1:4.6.2-26.el6_4 for package: 1:qt-sqlite-4.6.2-26.el6_4.x86_64
---> Processing Dependency: qt(x86-64) = 1:4.6.2-26.el6_4 for package: 1:qt-x11-4.6.2-26.el6_4.x86_64
----> Package qt.x86_64 1:4.6.2-28.el6_5 will be an update
---> Running transaction check
----> Package qt-sqlite.x86_64 1:4.6.2-26.el6_4 will be updated
----> Package qt-sqlite.x86_64 1:4.6.2-28.el6_5 will be an update
----> Package qt-x11.x86_64 1:4.6.2-26.el6_4 will be updated
----> Package qt-x11.x86_64 1:4.6.2-28.el6_5 will be an update
---> Finished Dependency Resolution
+-----------------------------------<br>
+[root@mysql ~]# yum install -y mysql-community-devel mysql-community-server mysql-community-client mysql-community-common<br> mysql-community-libs<br>
+Loaded plugins: fastestmirror, refresh-packagekit, security<br>
+Loading mirror speeds from cached hostfile<br>
+ * base: mirror.bit.edu.cn<br>
+ * extras: mirror.bit.edu.cn<br>
+ * updates: mirror.bit.edu.cn<br>
+Setting up Install Process<br>
+Resolving Dependencies<br>
+--> Running transaction check<br>
+---> Package mysql.x86_64 0:5.1.71-1.el6 will be obsoleted<br>
+---> Package mysql-community-client.x86_64 0:5.6.30-2.el6 will be obsoleting<br>
+---> Package mysql-community-common.x86_64 0:5.6.30-2.el6 will be installed<br>
+---> Package mysql-community-devel.x86_64 0:5.6.30-2.el6 will be installed<br>
+---> Package mysql-community-libs.x86_64 0:5.6.30-2.el6 will be obsoleting<br>
+---> Package mysql-community-server.x86_64 0:5.6.30-2.el6 will be obsoleting<br>
+---> Package mysql-libs.x86_64 0:5.1.71-1.el6 will be obsoleted<br>
+--> Processing Dependency: libmysqlclient.so.16()(64bit) for package: 2:postfix-2.6.6-2.2.el6_1.x86_64<br>
+--> Processing Dependency: libmysqlclient.so.16()(64bit) for package: redland-1.0.7-11.el6.x86_64<br>
+--> Processing Dependency: libmysqlclient.so.16()(64bit) for package: perl-DBD-MySQL-4.013-3.el6.x86_64<br>
+--> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: 2:postfix-2.6.6-2.2.el6_1.x86_64<br>
+--> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: redland-1.0.7-11.el6.x86_64<br>
+--> Processing Dependency: libmysqlclient.so.16(libmysqlclient_16)(64bit) for package: perl-DBD-MySQL-4.013-3.el6.x86_64<br>
+--> Processing Dependency: libmysqlclient_r.so.16()(64bit) for package: 1:qt-mysql-4.6.2-26.el6_4.x86_64<br>
+--> Processing Dependency: libmysqlclient_r.so.16(libmysqlclient_16)(64bit) for package: 1:qt-mysql-4.6.2-26.el6_4.x86_64<br>
+---> Package mysql-server.x86_64 0:5.1.71-1.el6 will be obsoleted<br>
+--> Running transaction check<br>
+---> Package mysql-community-libs-compat.x86_64 0:5.6.30-2.el6 will be obsoleting<br>
+---> Package postfix.x86_64 2:2.6.6-2.2.el6_1 will be updated<br>
+---> Package postfix.x86_64 2:2.6.6-6.el6_7.1 will be an update<br>
+---> Package qt-mysql.x86_64 1:4.6.2-26.el6_4 will be updated<br>
+---> Package qt-mysql.x86_64 1:4.6.2-28.el6_5 will be an update<br>
+--> Processing Dependency: qt(x86-64) = 1:4.6.2-28.el6_5 for package: 1:qt-mysql-4.6.2-28.el6_5.x86_64<br>
+--> Running transaction check<br>
+---> Package qt.x86_64 1:4.6.2-26.el6_4 will be updated<br>
+--> Processing Dependency: qt(x86-64) = 1:4.6.2-26.el6_4 for package: 1:qt-sqlite-4.6.2-26.el6_4.x86_64<br>
+--> Processing Dependency: qt(x86-64) = 1:4.6.2-26.el6_4 for package: 1:qt-x11-4.6.2-26.el6_4.x86_64<br>
+---> Package qt.x86_64 1:4.6.2-28.el6_5 will be an update<br>
+--> Running transaction check<br>
+---> Package qt-sqlite.x86_64 1:4.6.2-26.el6_4 will be updated<br>
+---> Package qt-sqlite.x86_64 1:4.6.2-28.el6_5 will be an update<br>
+---> Package qt-x11.x86_64 1:4.6.2-26.el6_4 will be updated<br>
+---> Package qt-x11.x86_64 1:4.6.2-28.el6_5 will be an update<br>
+--> Finished Dependency Resolution<br>
 
-Dependencies Resolved
+Dependencies Resolved<br>
 
 =========================================================================================================================
  Package                               Arch             Version                        Repository                   Size
@@ -83,26 +83,26 @@ Updating for dependencies:
 
 Transaction Summary
 =========================================================================================================================
-Install       6 Package(s)
-Upgrade       5 Package(s)
+Install       6 Package(s)<br>
+Upgrade       5 Package(s)<br>
 
-Total size: 97 M
-Downloading Packages:
-warning: rpmts_HdrFromFdno: Header V3 DSA/SHA1 Signature, key ID 5072e1f5: NOKEY
-Retrieving key from file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
-Importing GPG key 0x5072E1F5:
- Userid : MySQL Release Engineering <mysql-build@oss.oracle.com>
- Package: mysql-community-release-el6-5.noarch (installed)
- From   : file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
-Running rpm_check_debug
-Running Transaction Test
-Transaction Test Succeeded
-Running Transaction
-Warning: RPMDB altered outside of yum.
-** Found 3 pre-existing rpmdb problem(s), 'yum check' output follows:
-1:libreoffice-core-4.0.4.2-9.el6.x86_64 has missing requires of libjawt.so()(64bit)
-1:libreoffice-core-4.0.4.2-9.el6.x86_64 has missing requires of libjawt.so(SUNWprivate_1.1)(64bit)
-1:libreoffice-ure-4.0.4.2-9.el6.x86_64 has missing requires of jre >= ('0', '1.5.0', None)
+Total size: 97 M<br>
+Downloading Packages:<br>
+warning: rpmts_HdrFromFdno: Header V3 DSA/SHA1 Signature, key ID 5072e1f5: NOKEY<br>
+Retrieving key from file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql<br>
+Importing GPG key 0x5072E1F5:<br>
+ Userid : MySQL Release Engineering <mysql-build@oss.oracle.com><br>
+ Package: mysql-community-release-el6-5.noarch (installed)<br>
+ From   : file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql<br>
+Running rpm_check_debug<br>
+Running Transaction Test<br>
+Transaction Test Succeeded<br>
+Running Transaction<br>
+Warning: RPMDB altered outside of yum.<br>
+** Found 3 pre-existing rpmdb problem(s), 'yum check' output follows:<br>
+1:libreoffice-core-4.0.4.2-9.el6.x86_64 has missing requires of libjawt.so()(64bit)<br>
+1:libreoffice-core-4.0.4.2-9.el6.x86_64 has missing requires of libjawt.so(SUNWprivate_1.1)(64bit)<br>
+1:libreoffice-ure-4.0.4.2-9.el6.x86_64 has missing requires of jre >= ('0', '1.5.0', None)<br>
   Updating   : 1:qt-4.6.2-28.el6_5.x86_64                                                                           1/19 
   Installing : mysql-community-common-5.6.30-2.el6.x86_64                                                           2/19 
   Installing : mysql-community-libs-5.6.30-2.el6.x86_64                                                             3/19 
@@ -154,34 +154,34 @@ Dependency Updated:
 Replaced:
   mysql.x86_64 0:5.1.71-1.el6         mysql-libs.x86_64 0:5.1.71-1.el6         mysql-server.x86_64 0:5.1.71-1.el6        
 
-Complete!
+Complete!<br>
 
--------------------------
+-------------------------<br>
 #Create database
-# mysql -u root --password='123456' -e "create user 'scm'@'%' identified by '123456'" 
-# mysql -u root --password='123456' -e 'create database scm default character set utf8' 
-# mysql -u root --password='123456' -e "grant all privileges on scm.* to 'scm'@'%'"
+# mysql -u root --password='123456' -e "create user 'scm'@'%' identified by '123456'" <br>
+# mysql -u root --password='123456' -e 'create database scm default character set utf8' <br>
+# mysql -u root --password='123456' -e "grant all privileges on scm.* to 'scm'@'%'"<br>
 
-# mysql -u root --password='123456' -e "create user 'rman'@'%' identified by '123456'" 
-# mysql -u root --password='123456' -e 'create database rman default character set utf8' 
-# mysql -u root --password='123456' -e "grant all privileges on rman.* to 'rman'@'%'" 
+# mysql -u root --password='123456' -e "create user 'rman'@'%' identified by '123456'" <br>
+# mysql -u root --password='123456' -e 'create database rman default character set utf8' <br>
+# mysql -u root --password='123456' -e "grant all privileges on rman.* to 'rman'@'%'" <br>
 
-# mysql -u root --password='123456' -e "create user 'hivey'@'%' identified by '123456'"
-# mysql -u root --password='123456' -e 'create database hivey default character set utf8'
-# mysql -u root --password='123456' -e "grant all privileges on hivey.* to 'hivey'@'%'"
+# mysql -u root --password='123456' -e "create user 'hivey'@'%' identified by '123456'"<br>
+# mysql -u root --password='123456' -e 'create database hivey default character set utf8'<br>
+# mysql -u root --password='123456' -e "grant all privileges on hivey.* to 'hivey'@'%'"<br>
 
-# mysql -u root --password='123456' -e "create user 'oozie'@'%' identified by '123456'" 
-# mysql -u root --password='123456' -e 'create database oozie default character set utf8' 
-# mysql -u root --password='123456' -e "grant all privileges on oozie.* to 'oozie'@'%'" 
+# mysql -u root --password='123456' -e "create user 'oozie'@'%' identified by '123456'" <br>
+# mysql -u root --password='123456' -e 'create database oozie default character set utf8' <br>
+# mysql -u root --password='123456' -e "grant all privileges on oozie.* to 'oozie'@'%'"<br> 
 
-# mysql -u root --password='123456' -e "create user 'huey'@'%' identified by '123456'" 
-# mysql -u root --password='123456' -e 'create database huey default character set utf8'
-# mysql -u root --password='123456' -e "grant all privileges on huey.* to 'huey'@'%'"
+# mysql -u root --password='123456' -e "create user 'huey'@'%' identified by '123456'" <br>
+# mysql -u root --password='123456' -e 'create database huey default character set utf8'<br>
+# mysql -u root --password='123456' -e "grant all privileges on huey.* to 'huey'@'%'"<br>
 
 
-[root@mysql ~]# mysql --version
-mysql  Ver 14.14 Distrib 5.6.30, for Linux (x86_64) using  EditLine wrapper
-[root@mysql ~]# 
+[root@mysql ~]# mysql --version<br>
+mysql  Ver 14.14 Distrib 5.6.30, for Linux (x86_64) using  EditLine wrapper<br>
+[root@mysql ~]# <br>
 
 
 mysql> show databases;
