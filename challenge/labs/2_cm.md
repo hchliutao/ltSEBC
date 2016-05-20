@@ -1,5 +1,5 @@
-[root@node01 ~]# yum install -y cloudera-manager-server cloudera-manager-daemons cloudera-manager-agent
-Loaded plugins: fastestmirror, refresh-packagekit, security
+[root@node01 ~]# yum install -y cloudera-manager-server cloudera-manager-daemons cloudera-manager-agent<br>
+Loaded plugins: fastestmirror, refresh-packagekit, security<br>
 Loading mirror speeds from cached hostfile
  * base: mirrors.aliyun.com
  * extras: mirror.bit.edu.cn
@@ -273,10 +273,10 @@ Dependency Updated:
 Complete!
 
 ----------------------------------------
-[root@node01 ~]# /usr/share/cmf/schema/scm_prepare_database.sh mysql -h 192.168.60.70 --scm-host localhost scm scm 123456
-JAVA_HOME=/usr/java/latest/
-Verifying that we can write to /etc/cloudera-scm-server
-Creating SCM configuration file in /etc/cloudera-scm-server
+[root@node01 ~]# /usr/share/cmf/schema/scm_prepare_database.sh mysql -h 192.168.60.70 --scm-host localhost scm scm 123456<br>
+JAVA_HOME=/usr/java/latest/<br>
+Verifying that we can write to /etc/cloudera-scm-server<br>
+Creating SCM configuration file in /etc/cloudera-scm-server<br>
 Executing:  /usr/java/latest//bin/java -cp /usr/share/java/mysql-connector-java.jar:/usr/share/java/oracle-connector-java.jar:/usr/share/cmf/schema/../lib/* com.cloudera.enterprise.dbutil.DbCommandExecutor /etc/cloudera-scm-server/db.properties com.cloudera.cmf.db.
 [                          main] DbCommandExecutor              INFO  Successfully connected to database.
 All done, your SCM database is configured correctly!
